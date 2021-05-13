@@ -2,23 +2,17 @@ body {
     margin: 0;
     padding-top: 800px;
     text-align: center;
+    background-color: lightskyblue;
 }
 
 .profile {
-    width: 175px;
-    margin-bottom: 50px;
     border-radius: 50%;
-    7
+    width: 175px;
 }
 
 #welcome {
     position: absolute;
-    overflow: hidden;
-    height: 800px;
     color: white;
-    left: 0;
-    right: 0;
-    top: 0;
     bottom: 0;
     opacity: 0.83;
     display: table;
@@ -75,34 +69,58 @@ p {
     vertical-align: middle;
     position: relative;
 }
+
 .menu {
-    list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
+    position: fixed;
+    top: 0px;
     z-index: 10;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
 }
+
 .links {
-    float: left;
-    color: blue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: serif;
-    font-size: 15px;
+    font-size: 20px;
+    display: inline;
 }
+
 .links:hover {
-    background-color: yellow;
+    text-decoration: underline;
+    font-size: 25px;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px black;
 }
+
 .article:hover {
     color: pink;
+}
+#writings a{
+    text-shadow: none:important;
+    text-decoration: underline:important;
+    color:black:important;
+}
+#contact {
+    background: firebrick;
+}
+.contact1 a{
+  color: white;
+  text-shadow: none;
+}
+.contact1 h3 {
+    display: inline;
+}
+#contact iframe {
+    width: 100%;
 }
